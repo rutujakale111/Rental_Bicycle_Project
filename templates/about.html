@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Bicycle Rental</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="about-container">
+        <h1>About Us</h1>
+        <p>Welcome to <b>Bicycle Rental</b> – your go-to solution for easy and affordable bike rentals. Our mission is to provide high-quality bicycles to customers for a smooth and eco-friendly riding experience.</p>
+
+        <div class="about-section">
+            <img src="{{ url_for('static', filename='images/about.jpg') }}" alt="Bicycle Rental" class="about-img">
+            <div class="about-text">
+                <h2>Why Choose Us?</h2>
+                <ul>
+                    <li>🚴‍♂️ High-quality and well-maintained bicycles</li>
+                    <li>🌍 Eco-friendly transportation solution</li>
+                    <li>📍 Easy pickup and drop-off locations</li>
+                    <li>💰 Affordable pricing for all customers</li>
+                    <li>🔧 24/7 Customer Support</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Our Mission</h2>
+        <p>We aim to encourage a sustainable and healthy lifestyle by making bicycle rentals accessible and affordable for everyone.</p>
+        
+        <a href="/register" class="btn">Start Your Ride</a>
+    </div>
+</body>
+</html>

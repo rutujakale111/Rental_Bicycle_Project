@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67d27d84e6da6e6de8aa15ff"
+  },
+  "bike_id": 1,
+  "status": "available",
+  "hourly_rate": 5
+},
+{
+  "_id": {
+    "$oid": "67d27d84e6da6e6de8aa1600"
+  },
+  "bike_id": 2,
+  "status": "available",
+  "hourly_rate": 6
+},
+{
+  "_id": {
+    "$oid": "67d27d84e6da6e6de8aa1601"
+  },
+  "bike_id": 3,
+  "status": "rented",
+  "hourly_rate": 5
+},
+{
+  "_id": {
+    "$oid": "67d28d437db7a44a608f494d"
+  },
+  "name": "rutu",
+  "email": "jhfgfgnnb5646542@gmail.com",
+  "password": "scrypt:32768:8:1$1cSWguwMWvdqMZ4w$1fc5449ebb54e8a3f341aa783225b066ca776c0a445230cdc4f0f6e8d84230b3d45c7d497a37484576cac96edf502a6f7a562fe1aaca0bfd9019b3511f57e2fb"
+},
+{
+  "_id": {
+    "$oid": "67d3e8ea4c4d0515cb18b5b8"
+  },
+  "name": "jhnghvng",
+  "email": "mhgnf@gmail.com",
+  "password": "scrypt:32768:8:1$uLDh7hjnPTmME1rH$2352259f6dc260f833e30b3b3db5a6b9a278d765cdaf0338ced7bb464e029b2766796776cd0fb13c897396e3ba834dab35b0d015e4c283fc6256a53d83251e52"
+}]

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Return Bicycle</title>
+    <script>
+        function returnBike(bikeId) {
+            fetch('/return/' + bikeId, { method: 'POST' })
+                .then(response => response.json())
+                .then(data => alert(data.message + " Cost: $" + data.cost))
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Return Bicycle</h1>
+    <button onclick="returnBike(1)">Return Bike 1</button>
+    <button onclick="returnBike(2)">Return Bike 2</button>
+    <a href="/">Go Back</a>
+</body>
+</html>

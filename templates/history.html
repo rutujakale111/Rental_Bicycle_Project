@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rental History</title>
+</head>
+<body>
+    <h1>Rental History</h1>
+    <ul>
+        {% for rental in rentals %}
+        <li>Bike {{ rental.bike_id }} - {{ rental.user }} - {{ rental.status }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>
