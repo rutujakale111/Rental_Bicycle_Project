@@ -36,11 +36,16 @@ MongoDB installed and running
 
 Steps to Run the Project :
 **1. Clone the repository:**
-git clone https://github.com/rutujakale111
+git clone 
+```bash
+https://github.com/rutujakale111
+````
 cd Rental_Bicycle_Project
 **2. Install dependencies:**
 Install dependencies:
+```bash
 pip install -r requirements.txt
+````
 **3.Set up the database:**
 
 Start MongoDB.
@@ -52,7 +57,7 @@ Optionally, run the provided script to insert sample bicycle data.
 **python app.py**
 **4.Access the application:**
 
-Open <b>http://127.0.0.1:5000/</b> in your web browser.
+Open <b>````http://127.0.0.1:5000/````</b> in your web browser.
 ## Project Structure
 / bicycle-rental-system
 |-- static/
